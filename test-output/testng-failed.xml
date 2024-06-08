@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Qtrip.QtripProject.tests.testCase_01"/>
+      <class name="Qtrip.QtripProject.tests.testCase_02"/>
+      <class name="Qtrip.QtripProject.tests.testCase_03"/>
+      <class name="Qtrip.QtripProject.tests.testCase_04"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Qtrip.QtripProject.tests.testCase_01">
+        <methods>
+          <include name="TestCase01"/>
+        </methods>
+      </class> <!-- Qtrip.QtripProject.tests.testCase_01 -->
+      <class name="Qtrip.QtripProject.tests.testCase_03">
+        <methods>
+          <include name="TestCase03"/>
+        </methods>
+      </class> <!-- Qtrip.QtripProject.tests.testCase_03 -->
+      <class name="Qtrip.QtripProject.tests.testCase_04">
+        <methods>
+          <include name="TestCase04"/>
+        </methods>
+      </class> <!-- Qtrip.QtripProject.tests.testCase_04 -->
+      <class name="Qtrip.QtripProject.tests.testCase_02">
+        <methods>
+          <include name="TestCase02"/>
+        </methods>
+      </class> <!-- Qtrip.QtripProject.tests.testCase_02 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

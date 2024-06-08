@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="0" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T20:31:24Z" name="Suite" finished-at="2024-06-08T20:31:24Z" duration-ms="11">
+    <groups>
+      <group name="Booking and Cancellation Flow">
+        <method signature="testCase_03.TestCase03(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Qtrip.QtripProject.tests.testCase_03@e50a6f6]" name="TestCase03" class="Qtrip.QtripProject.tests.testCase_03"/>
+      </group> <!-- Booking and Cancellation Flow -->
+      <group name="Search and Filter flow">
+        <method signature="testCase_02.TestCase02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Qtrip.QtripProject.tests.testCase_02@4034c28c]" name="TestCase02" class="Qtrip.QtripProject.tests.testCase_02"/>
+      </group> <!-- Search and Filter flow -->
+      <group name="Reliability Flow">
+        <method signature="testCase_04.TestCase04(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Qtrip.QtripProject.tests.testCase_04@14ec4505]" name="TestCase04" class="Qtrip.QtripProject.tests.testCase_04"/>
+      </group> <!-- Reliability Flow -->
+      <group name="Login Flow">
+        <method signature="testCase_01.TestCase01(java.lang.String, java.lang.String)[pri:1, instance:Qtrip.QtripProject.tests.testCase_01@50a7bc6e]" name="TestCase01" class="Qtrip.QtripProject.tests.testCase_01"/>
+      </group> <!-- Login Flow -->
+    </groups>
+    <test started-at="2024-06-08T20:31:24Z" name="Test" finished-at="2024-06-08T20:31:24Z" duration-ms="11">
+      <class name="Qtrip.QtripProject.tests.testCase_04">
+        <test-method signature="TestCase04(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Qtrip.QtripProject.tests.testCase_04@14ec4505]" started-at="2024-06-08T22:31:24Z" name="TestCase04" description="verify that adventure bookiing and cancellation works fine" data-provider="data-provider" finished-at="2024-06-08T22:31:24Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] Qtrip.QtripProject.DP.dpMethod(java.lang.reflect.Method) throws java.io.IOException on this instance of class Qtrip.QtripProject.tests.testCase_04 due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] Qtrip.QtripProject.DP.dpMethod(java.lang.reflect.Method) throws java.io.IOException on this instance of class Qtrip.QtripProject.tests.testCase_04 due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:75)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase04 -->
+      </class> <!-- Qtrip.QtripProject.tests.testCase_04 -->
+      <class name="Qtrip.QtripProject.tests.testCase_03">
+        <test-method signature="TestCase03(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Qtrip.QtripProject.tests.testCase_03@e50a6f6]" started-at="2024-06-08T22:31:24Z" name="TestCase03" description="verify that adventure bookiing and cancellation works fine" data-provider="data-provider" finished-at="2024-06-08T22:31:24Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] Qtrip.QtripProject.DP.dpMethod(java.lang.reflect.Method) throws java.io.IOException on this instance of class Qtrip.QtripProject.tests.testCase_03 due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] Qtrip.QtripProject.DP.dpMethod(java.lang.reflect.Method) throws java.io.IOException on this instance of class Qtrip.QtripProject.tests.testCase_03 due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:75)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03 -->
+      </class> <!-- Qtrip.QtripProject.tests.testCase_03 -->
+      <class name="Qtrip.QtripProject.tests.testCase_02">
+        <test-method signature="TestCase02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Qtrip.QtripProject.tests.testCase_02@4034c28c]" started-at="2024-06-08T22:31:24Z" name="TestCase02" description="verify that the search and filters are working fine" data-provider="data-provider" finished-at="2024-06-08T22:31:24Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] Qtrip.QtripProject.DP.dpMethod(java.lang.reflect.Method) throws java.io.IOException on this instance of class Qtrip.QtripProject.tests.testCase_02 due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] Qtrip.QtripProject.DP.dpMethod(java.lang.reflect.Method) throws java.io.IOException on this instance of class Qtrip.QtripProject.tests.testCase_02 due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:75)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase02 -->
+      </class> <!-- Qtrip.QtripProject.tests.testCase_02 -->
+      <class name="Qtrip.QtripProject.tests.testCase_01">
+        <test-method signature="TestCase01(java.lang.String, java.lang.String)[pri:1, instance:Qtrip.QtripProject.tests.testCase_01@50a7bc6e]" started-at="2024-06-08T22:31:24Z" name="TestCase01" description="verify the user is register successfully" data-provider="data-provider" finished-at="2024-06-08T22:31:24Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] Qtrip.QtripProject.DP.dpMethod(java.lang.reflect.Method) throws java.io.IOException on this instance of class Qtrip.QtripProject.tests.testCase_01 due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] Qtrip.QtripProject.DP.dpMethod(java.lang.reflect.Method) throws java.io.IOException on this instance of class Qtrip.QtripProject.tests.testCase_01 due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:75)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+      </class> <!-- Qtrip.QtripProject.tests.testCase_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

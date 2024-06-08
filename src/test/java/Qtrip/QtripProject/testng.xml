@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests for QTrip Regression">
+<groups>
+    <run>
+        <include name="Login Flow"/>
+        <include name="Search and Filter flow"/>
+        <include name="Booking and Cancellation Flow"/>
+        <include name="Reliability Flow"/>
+    </run>
+</groups>
+    <test name = "LoginFlow">
+    <!-- <packages>
+        <package name="qtriptest.tests"/>
+    </packages> -->
+    <classes>
+        <class name="qtriptest.DriverSingleton"/>
+        <class name="qtriptest.tests.testCase_01"/>
+        <!-- <methods>
+            <include name="testMethod1"/>
+        </methods> -->
+        <class name="qtriptest.tests.testCase_02"/>
+        <class name="qtriptest.tests.testCase_03"/>
+        <class name="qtriptest.tests.testCase_04"/> 
+    </classes>
+    </test> 
+</suite>
